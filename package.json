@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "firebase": "^9.6.5",
+    "@firebase/firestore": "^3.4.4",
+    "tesseract.js": "^2.1.5",
+    "node-tesseract": "^0.2.7",
+    "firebase-tools": "^10.1.4",
+    "vueify": "^9.4.1",
+    "vue": "^2.4.4"
+  },
+  "scripts": {
+    "start": "ws --port 3000 --log.format combined --directory . --blacklist '/.env' '/.data' '/.git'"
+  }
+}
